@@ -1,0 +1,9 @@
+<!-- Illustrative Wazuh agent configuration fragment. NOT a complete ossec.conf.
+     Validate against your installed Wazuh version before use.
+     Do not paste this as a replacement for the whole configuration. -->
+<ossec_config>
+  <syscheck>
+    <disabled>no</disabled>
+    <directories check_all="yes" realtime="yes">/home/labuser/soc-test-files</directories>
+  </syscheck>
+</ossec_config>
