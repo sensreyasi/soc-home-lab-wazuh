@@ -1,0 +1,22 @@
+# Credentials and local secrets
+.env
+.env.*
+!.env.example
+*password*
+*secret*
+*.pem
+*.key
+*.p12
+*.pfx
+# Logs, exports and potentially sensitive artifacts
+*.log
+*.pcap
+*.pcapng
+raw-logs/
+exports/
+evidence/private/
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
